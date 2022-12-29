@@ -3,18 +3,23 @@
   // Pinned to the latest matching Ubuntu version supported by the
   // GitHub-hosted runners
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
+  "updateContentCommand": [
+    "./.devcontainer/post-create.sh",
+    "${containerWorkspaceFolder}"
+  ],
   "customizations": {
     "vscode": {
+      // cspell:disable
       "extensions": [
-        // cspell:disable
         "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
         "fnando.linter",
         "sandcastle.whitespace",
+        "shardulm94.trailing-spaces",
         "streetsidesoftware.code-spell-checker",
         "timonwong.shellcheck"
-        // cspell:enable
       ]
+      // cspell: enable
     }
   }
 }
