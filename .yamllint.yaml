@@ -1,0 +1,6 @@
+rules:
+  document-start: disable
+  quoted-strings:
+    required: only-when-needed
+  key-duplicates: {}
+ignore: node_modules

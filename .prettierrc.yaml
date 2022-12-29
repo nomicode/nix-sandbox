@@ -1,0 +1,8 @@
+bracketSameLine: true
+printWidth: 72 # Target value (Prettier may exceed this)
+proseWrap: preserve
+quoteProps: as-needed
+semi: true
+singleQuote: true
+tabWidth: 2
+trailingComma: all

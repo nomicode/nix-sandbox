@@ -1,0 +1,13 @@
+{
+  "version": "0.2",
+  "language": "en-US",
+  "caseSensitive": false,
+  "allowCompoundWords": true,
+  "dictionaries": ["custom-vocab"],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-vocab",
+      "path": ".config/cspell/vocab.txt"
+    }
+  ]
+}
